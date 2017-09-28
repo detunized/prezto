@@ -43,6 +43,11 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
+  $HOME/bin
+  $HOME/.local/bin
+  $HOME/.cargo/bin
+  /usr/local/opt/ruby/bin
+  /usr/local/lib/ruby/gems/2.6.0/bin
   /usr/local/{bin,sbin}
   $path
 )
