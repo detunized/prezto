@@ -14,3 +14,6 @@ fi
 
 # Disable annoying autocorrection
 unsetopt correct
+
+# fzf keybindings
+[[ -f ~/.fzf.zsh ]] && source ~/.fzf.zsh
