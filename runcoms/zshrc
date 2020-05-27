@@ -17,3 +17,6 @@ unsetopt correct
 
 # fzf keybindings
 [[ -f ~/.fzf.zsh ]] && source ~/.fzf.zsh
+
+# z
+. ~/bin/z/z.sh
